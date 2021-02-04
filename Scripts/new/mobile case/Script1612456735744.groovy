@@ -17,5 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('', false)
 
+Mobile.delay(0, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.closeApplication()
 
